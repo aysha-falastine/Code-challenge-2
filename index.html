@@ -1,0 +1,26 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guest List Babe ✨</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💖 My Custom Guest List 💖</h1>
+    <form id="guest-form">
+      <input type="text" id="guest-name" placeholder="Name please..." required />
+      <select id="guest-type">
+        <option value="Friend">👯 Friend</option>
+        <option value="Family">🏡 Family</option>
+        <option value="Colleague">💼 Colleague</option>
+      </select>
+      <button type="submit">Add Guest</button>
+    </form>
+    <ul id="guest-list"></ul>
+  </div>
+  <script src="/index.js"></script>
+</body>
+</html>
